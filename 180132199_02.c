@@ -617,7 +617,7 @@ void configtabul(){
 
 	fileconfig2 = fopen(arqtxt, "w");
 
-	fprintf(fileconfig2, "%d %d %d %d %d", config[0], config[1], config[2], config[3], config[4], config[5]);
+	fprintf(fileconfig2, "%d %d %d %d %d", config[0], config[1], config[2], config[3], config[4]);
 
 	fclose(fileconfig2);
 
@@ -653,7 +653,7 @@ void configpecas(){
 
 	fileconfig1 = fopen(arqtxt, "w");
 
-	fprintf(fileconfig1, "%d %d %d %d %d", config[0], config[1], config[2], config[3], config[4], config[5]);
+	fprintf(fileconfig1, "%d %d %d %d %d", config[0], config[1], config[2], config[3], config[4]);
 
 	fclose(fileconfig1);
 

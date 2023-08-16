@@ -4,6 +4,7 @@ O programa executa um jogo de Puyo Puyo, podendo alterar configurações como ta
 - Aluno: Vinícius Caixeta de Souza
 - Matrícula: 180132199
 - Versão do GCC: 11.4.0
+
 Para compilar o código e executar o programa digite no terminal:
 ```
 gcc 180132199_02.c -o puyo-puyo
